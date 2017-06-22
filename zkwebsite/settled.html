@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<meta name="renderer" content="webkit"> 
+		<meta name="keywords" content="燃脂部落，健身，运动，跑步记录，体重管理，蓝牙体重秤，心率带，健身房管理，运动社交，交友，智能，智能健康踏步机，智能踏步机，踏步机，宅客，宅客网络，宅客运动，宅客科技，宅客社区，健身神器，家庭、办公室健身神器，smart stepper，stepper，智能健身器材，简单有意思" />
+		<meta name="description" content="燃脂部落是一款移动健身管理手机APP，能够满足健身的一站式管理，同时能够连接多款智能设备，让健身更简单。所有的健身家庭、办公室的健身神器，利用工作、生活的闲暇碎片时间进行合理高效的体育锻炼，并通过手机进行运动健康数据的收集与分析，运动健康信息一目了然，从此健康不在遥远！" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>燃脂部落，用芯享受运动</title>
+		<link href="./css/common.css" rel="stylesheet"/>
+		<link href="./css/main.css" rel="stylesheet"/>
+		<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.form.js"></script>
+		<script type="text/javascript" src="./js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="js/utils.js"></script>
+		<script type="text/javascript" src="./js/settled_action.js"></script>
+	</head>
+<body>
+	<div class="title">
+		<div class="logo"><a class="title_logo" href="./index.html"><img src="./css/images/logo.png"/></a></div>
+		<ul>
+			<li><a class="title_buton" href="index.html">首页/HOME</a></li>
+			<li><a class="title_buton" href="settled.html">入驻/SETTLED</a></li>
+			<li><a class="title_buton" href="join.html">加入/JOIN</a></li>
+			<li><a class="title_buton" href="contact.html">联系/CONTACT</a></li>
+		</ul>
+	</div>
+	
+	<div class="functionDiv">
+	<!--
+		<div class="loginDiv">商家登录</div>
+		<div class="applyDiv">申请入驻</div>
+	-->
+		<a class="loginDiv" href="http://zhaiker.oss-cn-hangzhou.aliyuncs.com/fatburn/setup.exe">PC端下载</a>
+		<a class="applyDiv" href="http://www.zhaiker.cn/fatburn/gym/index.html">商家登录</a>
+		<a class="applyDiv" href="#" onclick="goPage(4)">申请入驻</a>
+	</div>
+	
+	<div class="pageBar">
+		<ul id="pageBar_ul">
+		</ul>
+	</div>
+	<div class="pageBox">
+		<div id="s_page1" class="page">
+			<div class="main_view">
+				<div class="s_p1_update"></div>
+				<div id="settled_p1_text" class="text_class">强大技术核芯  全面智能大升级<p>传统器械改造成本奇高，无法与用户产生交互。宅客科技“核芯”技术---《燃脂部落》智能组件5分钟可完成一台健身器械的智能化改造，全面提升商家器械的整体逼格，让您健身房进入智能时代，让您的会员用“芯”玩！</p></div>
+			</div>
+		</div>
+		<div id="s_page2" class="page">
+			<div class="main_view">
+				<div class="s_p2_update"></div>
+				<div id="settled_p2_text" class="text_class">精准用户推广 会员体验大提升<p>宅客科技智能APP平台--《燃脂部落》横空出世，帮你
+精准推广，附近用户全知道！让你不必担芯，帮您用芯
+留住会员！全面提升用户体验感！</p></div>
+			</div>
+		</div>
+		<div id="s_page3" class="page">
+			<div class="main_view">
+				<div class="s_p3_update"></div>
+				<div id="settled_p3_text" class="text_class">专业数据指导 锻炼效果全解析<p>《燃脂部落》全运动状态呈现；会员身体指标数据三维立
+体输出；会员运动状态事实跟踪；会员锻炼强度科学分析！
+专业数据指导，教练教学无需操芯！帮助你用科学的方式
+培养教练，让专业的教练更专业！</p></div>
+			</div>
+		</div>
+		<div id="s_page4" class="page">
+			<div class="main_view">
+				<div class="s_p4_update"></div>
+				<div id="settled_p4_text" class="text_class">消费收入分析 老板店长乐无忧<p>《燃脂部落》为你干掉繁杂的手工记账本，会员消费分析、用户习惯分析、课程表发布、经营收入分析、数据统计分析...，让您轻松经营，一键管理！</p></div>
+			</div>
+		</div>
+		<div id="s_page5" class="page">
+			<div class="main_view">
+				<div id="settled_p4_text" class="text_class">商家入驻流程<p>1、在线提交商家信息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2、燃脂部落市场人员商务对接&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3、现场安装设备、系统</p></div>
+				<div class="s_page5_form">
+					<form id="companyInfo" action="http://www.zhaiker.cn/fatburn/GymApplyAction!add.zk" method="post" target="backHtml">
+						<table>
+							 <input type="text" name="companyName" value="公司名称" class="input_text" maxlength="100" id="company"/>
+							 <input type="text" name="companyAddress" value="公司地址" class="input_text" maxlength="100"  id="address"/> 
+							 <input type="text" name="area" value="健身场地面积" class="input_text" maxlength="100"  id="area"/> 
+							 <input type="text" name="vipNumber" value="会员数量" class="input_text" maxlength="100"  id="member"/>
+							 <input type="text" name="contact" value="联 系 人" class="input_text" maxlength="100"  id="contact"/> 
+							 <input type="text" name="contactPhone" value="联系电话" class="input_text" maxlength="100"  id="phone"/>
+							 <input id="submit" type="submit" onclick="submitF()" value="申请入驻"/>
+						</table>
+					</form>
+					<div id="submitSuc" class="submitSuc" style="display:none;">
+						<img src="images/ok.png" class="okImg">
+						<p class="success">申请成功!</p>
+						<p class="pointMessage">谢谢您的申请，我们的市场人员将主动与您联系!</p>
+					</div>
+					<iframe id="backHtml" name="backHtml" style="display:none;"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

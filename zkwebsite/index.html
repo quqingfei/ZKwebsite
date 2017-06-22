@@ -1,0 +1,116 @@
+<html>
+	<head>
+		<meta name="renderer" content="webkit"> 
+		<meta name="keywords" content="燃脂部落，健身，运动，跑步记录，体重管理，蓝牙体重秤，心率带，健身房管理，运动社交，交友，智能，智能健康踏步机，智能踏步机，踏步机，宅客，宅客网络，宅客运动，宅客科技，宅客社区，健身神器，家庭、办公室健身神器，smart stepper，stepper，智能健身器材，简单有意思" />
+		<meta name="description" content="燃脂部落是一款移动健身管理手机APP，能够满足健身的一站式管理，同时能够连接多款智能设备，让健身更简单。所有的健身家庭、办公室的健身神器，利用工作、生活的闲暇碎片时间进行合理高效的体育锻炼，并通过手机进行运动健康数据的收集与分析，运动健康信息一目了然，从此健康不在遥远！" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>燃脂部落，用芯享受运动</title>
+		<link href="./css/common.css" rel="stylesheet"/>
+		<link href="./css/main.css" rel="stylesheet"/>
+		<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+		<script type="text/javascript" src="./js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="./js/index_action.js"></script>
+		<script type="text/javascript"> 
+	        //平台、设备和操作系统 
+	        var system = { 
+	            win: false, 
+	            mac: false, 
+	            xll: false, 
+	            ipad:false 
+	        }; 
+	        //检测平台 
+	        var p = navigator.platform; 
+	        system.win = p.indexOf("Win") == 0; 
+	        system.mac = p.indexOf("Mac") == 0; 
+	        system.x11 = (p == "X11") || (p.indexOf("Linux") == 0); 
+	        system.ipad = (navigator.userAgent.match(/iPad/i) != null)?true:false; 
+	        //跳转语句，如果是手机访问就自动跳转到wap.baidu.com页面 
+	        if (system.win || system.mac || system.xll||system.ipad) { 
+	 			//window.location.href = "./index.html"
+	        } else { 
+	 
+	            window.location.href = "./mobile.html"; 
+	        } 
+	</script> 
+	</head>
+<body>
+	<div class="title">
+		<div class="logo"><a class="title_logo" href="./index.html"><img src="./css/images/logo.png"/></a></div>
+		<ul>
+			<li><a class="title_buton" href="index.html">首页/HOME</a></li>
+			<li><a class="title_buton" href="settled.html">入驻/SETTLED</a></li>
+			<li><a class="title_buton" href="join.html">加入/JOIN</a></li>
+			<li><a class="title_buton" href="contact.html">联系/CONTACT</a></li>
+		</ul>
+	</div>
+	
+	<div class="pageBar">
+		<ul id="pageBar_ul">
+		</ul>
+	</div>
+	<div class="pageBox">
+		<div id="home" class="page">
+			<div class="main_view">
+				<div class="down_area">
+					用&nbsp;&nbsp;芯&nbsp;&nbsp;享&nbsp;&nbsp;受&nbsp;&nbsp;运&nbsp;&nbsp;动
+					<div class="download">
+						<span class="download_span">下&nbsp;载</span>
+						<span id="down_icon" class="apple_class"></span>
+						<a id="down_app" class="down_type" href="#">IOS&nbsp;客户端</a>
+						<a id="down_button" class="down_button" href="https://itunes.apple.com/cn/app/ran-zhi-bu-luo/id1081258525?mt=8"><span></span></a>
+					</div>
+					<div id="select_box">
+						<span class="android_class"></span><a href="#">Android&nbsp;客户端</a>
+					</div>
+					<div class="home_qrcode"></div>
+				</div>
+				<div class="p1_phone_show">
+					<div class="p1_phone">
+						<div id="p1_phone_screen">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="one" class="page">
+			<div id="two_more" class="main_view">
+				<div id="two_text" class="one_text">解决碎片化健身问题<p>加入燃脂部落,搞定所有健身问题。体重管理、跑步记录、在线视频教程、健身房运动和饮食方案咱们全搞定!</p></div>
+				<div class="two_phone_bg"></div>
+				<div id="two_phone" class="p1_phone">
+					<div class="two_screen"></div>
+				</div>
+				
+				<div id="two_bike" class="two_icon"></div>
+				<div id="two_weight" class="two_icon"></div>
+				<div id="two_ride" class="two_icon"></div>
+				<div id="two_hold" class="two_icon"></div>
+				<div id="two_heart" class="two_icon"></div>
+				<div id="two_run" class="two_icon"></div>
+				<div id="two_mechine" class="two_icon"></div>
+			</div>
+		</div>
+		<div id="two"  class="page"> 
+			<div id="three_more" class="main_view">
+					<div id="three_text" class="one_text">智能芯，更贴心<p>轻松接入各种智能硬件。智能体重称、跑步机、健身车、心率带、踏步机等智能设备统统都不放过！</p></div>
+					<div class="logo_circle"></div>
+					<div id="t_bike" class="icon_show"></div>
+					<div id="t_mechine" class="icon_show"></div>
+					<div id="t_weight" class="icon_show"></div>
+					<div id="t_run" class="icon_show"></div>
+					<div id="t_heart" class="icon_show"></div>
+					<div id="t_ride" class="icon_show"></div>
+					<div id="t_hold" class="icon_show"></div>
+			</div>
+		</div>
+		<div id="three" class="page"> 
+			<div id="four_more" class="main_view">
+				<div id="four_text" class="one_text">认识身边的那个TA<p>加入燃脂部落，让躁动重归温馨</p></div>
+				<div id="f_head_1" class="f_head_icon"></div>
+				<div id="f_head_2" class="f_head_icon"></div>
+				<div id="f_head_3" class="f_head_icon"></div>
+				<div id="f_head_4" class="f_head_icon"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
